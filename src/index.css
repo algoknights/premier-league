@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased dark:bg-hub-bg dark:text-hub-text;
+}
+
+/* Nice scrollbars for desktop */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(168, 85, 247, 0.55) rgba(255, 255, 255, 0.06);
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.55);
+  border-radius: 999px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+}
+
+@layer components {
+  .glass {
+    @apply border border-hub-border bg-white/5 backdrop-blur-xl;
+  }
+
+  .hub-container {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .hub-title {
+    @apply text-2xl sm:text-3xl font-semibold tracking-tight;
+  }
+
+  .hub-subtitle {
+    @apply text-hub-muted;
+  }
+
+  .hub-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold
+    transition active:scale-[0.98];
+  }
+
+  .hub-btn-primary {
+    @apply hub-btn bg-gradient-to-r from-hub-brand to-hub-brand2 text-white shadow-glow hover:brightness-110;
+  }
+
+  .hub-btn-ghost {
+    @apply hub-btn glass hover:bg-white/10;
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "name": "Arsenal",
+      "shortName": "ARS",
+      "founded": 1886,
+      "stadium": "Emirates Stadium",
+      "stadiumInfo": "A modern 60k+ seat stadium in North London, known for its clean sightlines and loud matchday atmosphere.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "attack": 86,
+      "defense": 81,
+      "form": 84,
+      "rating": 85
+    },
+    {
+      "id": 2,
+      "name": "Manchester City",
+      "shortName": "MCI",
+      "founded": 1880,
+      "stadium": "Etihad Stadium",
+      "stadiumInfo": "Home of one of the most dominant modern sides, with a compact bowl design and great city-campus setting.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      "attack": 90,
+      "defense": 86,
+      "form": 88,
+      "rating": 89
+    },
+    {
+      "id": 3,
+      "name": "Liverpool",
+      "shortName": "LIV",
+      "founded": 1892,
+      "stadium": "Anfield",
+      "stadiumInfo": "A legendary ground famous for 'You'll Never Walk Alone' and one of the most iconic atmospheres in football.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "attack": 88,
+      "defense": 83,
+      "form": 86,
+      "rating": 87
+    },
+    {
+      "id": 4,
+      "name": "Chelsea",
+      "shortName": "CHE",
+      "founded": 1905,
+      "stadium": "Stamford Bridge",
+      "stadiumInfo": "A historic West London stadium with tight stands close to the pitch and a classic Premier League feel.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      "attack": 83,
+      "defense": 80,
+      "form": 79,
+      "rating": 82
+    },
+    {
+      "id": 5,
+      "name": "Manchester United",
+      "shortName": "MUN",
+      "founded": 1878,
+      "stadium": "Old Trafford",
+      "stadiumInfo": "The 'Theatre of Dreams'—one of the biggest stadiums in England with huge matchday traditions.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+      "attack": 84,
+      "defense": 78,
+      "form": 80,
+      "rating": 83
+    },
+    {
+      "id": 6,
+      "name": "Tottenham Hotspur",
+      "shortName": "TOT",
+      "founded": 1882,
+      "stadium": "Tottenham Hotspur Stadium",
+      "stadiumInfo": "One of the most modern stadiums in Europe—premium design, giant screens, and a top-tier matchday experience.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      "attack": 85,
+      "defense": 79,
+      "form": 82,
+      "rating": 84
+    },
+    {
+      "id": 7,
+      "name": "Newcastle United",
+      "shortName": "NEW",
+      "founded": 1892,
+      "stadium": "St James' Park",
+      "stadiumInfo": "A stadium perched above the city, famous for intense crowds and big-night European vibes.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+      "attack": 82,
+      "defense": 80,
+      "form": 81,
+      "rating": 82
+    },
+    {
+      "id": 8,
+      "name": "Aston Villa",
+      "shortName": "AVL",
+      "founded": 1874,
+      "stadium": "Villa Park",
+      "stadiumInfo": "Classic English ground with a strong heritage and a roaring home crowd on big matchdays.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Aston_Villa_FC_crest_%282016%29.svg",
+      "attack": 81,
+      "defense": 78,
+      "form": 80,
+      "rating": 80
+    },
+    {
+      "id": 9,
+      "name": "Brighton & Hove Albion",
+      "shortName": "BHA",
+      "founded": 1901,
+      "stadium": "Amex Stadium",
+      "stadiumInfo": "A modern coastal stadium known for smart recruitment and bold football identity.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg",
+      "attack": 79,
+      "defense": 76,
+      "form": 78,
+      "rating": 78
+    },
+    {
+      "id": 10,
+      "name": "West Ham United",
+      "shortName": "WHU",
+      "founded": 1895,
+      "stadium": "London Stadium",
+      "stadiumInfo": "A big-city venue with a strong cup tradition and a powerful home support when the team is firing.",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+      "attack": 78,
+      "defense": 75,
+      "form": 77,
+      "rating": 77
+    }
+  ],
+  "players": [
+    {
+      "id": 101,
+      "clubId": 2,
+      "clubName": "Manchester City",
+      "name": "Erling Haaland",
+      "number": 9,
+      "position": "Forward",
+      "goals": 18,
+      "assists": 5,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Erling_Haaland_2023_%28cropped%29.jpg"
+    },
+    {
+      "id": 102,
+      "clubId": 3,
+      "clubName": "Liverpool",
+      "name": "Mohamed Salah",
+      "number": 11,
+      "position": "Forward",
+      "goals": 15,
+      "assists": 7,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Mohamed_Salah_2018.jpg"
+    },
+    {
+      "id": 103,
+      "clubId": 1,
+      "clubName": "Arsenal",
+      "name": "Bukayo Saka",
+      "number": 7,
+      "position": "Winger",
+      "goals": 10,
+      "assists": 8,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bukayo_Saka_2021_%28cropped%29.jpg"
+    },
+    {
+      "id": 104,
+      "clubId": 6,
+      "clubName": "Tottenham Hotspur",
+      "name": "Son Heung-min",
+      "number": 7,
+      "position": "Forward",
+      "goals": 12,
+      "assists": 6,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Son_Heung-min_2022.jpg"
+    },
+    {
+      "id": 105,
+      "clubId": 5,
+      "clubName": "Manchester United",
+      "name": "Bruno Fernandes",
+      "number": 8,
+      "position": "Midfielder",
+      "goals": 8,
+      "assists": 9,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bruno_Fernandes_2021_%28cropped%29.jpg"
+    },
+    {
+      "id": 106,
+      "clubId": 4,
+      "clubName": "Chelsea",
+      "name": "Cole Palmer",
+      "number": 20,
+      "position": "Midfielder",
+      "goals": 9,
+      "assists": 6,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cole_Palmer_2023_%28cropped%29.jpg"
+    },
+    {
+      "id": 107,
+      "clubId": 7,
+      "clubName": "Newcastle United",
+      "name": "Alexander Isak",
+      "number": 14,
+      "position": "Forward",
+      "goals": 11,
+      "assists": 3,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Alexander_Isak_2022_%28cropped%29.jpg"
+    },
+    {
+      "id": 108,
+      "clubId": 8,
+      "clubName": "Aston Villa",
+      "name": "Ollie Watkins",
+      "number": 11,
+      "position": "Forward",
+      "goals": 10,
+      "assists": 5,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ollie_Watkins_2021_%28cropped%29.jpg"
+    },
+    {
+      "id": 109,
+      "clubId": 9,
+      "clubName": "Brighton",
+      "name": "Kaoru Mitoma",
+      "number": 22,
+      "position": "Winger",
+      "goals": 6,
+      "assists": 7,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Kaoru_Mitoma_2022_%28cropped%29.jpg"
+    },
+    {
+      "id": 110,
+      "clubId": 10,
+      "clubName": "West Ham United",
+      "name": "Jarrod Bowen",
+      "number": 20,
+      "position": "Winger",
+      "goals": 9,
+      "assists": 4,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jarrod_Bowen_2021_%28cropped%29.jpg"
+    },
+    {
+      "id": 111,
+      "clubId": 1,
+      "clubName": "Arsenal",
+      "name": "Declan Rice",
+      "number": 41,
+      "position": "Midfielder",
+      "goals": 5,
+      "assists": 4,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Declan_Rice_2022_%28cropped%29.jpg"
+    },
+    {
+      "id": 112,
+      "clubId": 2,
+      "clubName": "Manchester City",
+      "name": "Kevin De Bruyne",
+      "number": 17,
+      "position": "Midfielder",
+      "goals": 4,
+      "assists": 10,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Kevin_De_Bruyne_201807091.jpg"
+    },
+    {
+      "id": 113,
+      "clubId": 3,
+      "clubName": "Liverpool",
+      "name": "Virgil van Dijk",
+      "number": 4,
+      "position": "Defender",
+      "goals": 2,
+      "assists": 1,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Virgil_van_Dijk_2019.jpg"
+    },
+    {
+      "id": 114,
+      "clubId": 6,
+      "clubName": "Tottenham Hotspur",
+      "name": "James Maddison",
+      "number": 10,
+      "position": "Midfielder",
+      "goals": 6,
+      "assists": 6,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/James_Maddison_2021_%28cropped%29.jpg"
+    },
+    {
+      "id": 115,
+      "clubId": 7,
+      "clubName": "Newcastle United",
+      "name": "Kieran Trippier",
+      "number": 2,
+      "position": "Defender",
+      "goals": 1,
+      "assists": 5,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kieran_Trippier_2018_%28cropped%29.jpg"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": 201,
+      "matchweek": 30,
+      "kickoff": "2026-04-26T16:30:00.000Z",
+      "homeClubId": 1,
+      "awayClubId": 6,
+      "status": "UPCOMING",
+      "homeScore": 0,
+      "awayScore": 0,
+      "stadium": "Emirates Stadium",
+      "referee": "M. Oliver"
+    },
+    {
+      "id": 202,
+      "matchweek": 30,
+      "kickoff": "2026-04-26T19:00:00.000Z",
+      "homeClubId": 3,
+      "awayClubId": 4,
+      "status": "UPCOMING",
+      "homeScore": 0,
+      "awayScore": 0,
+      "stadium": "Anfield",
+      "referee": "A. Taylor"
+    },
+    {
+      "id": 203,
+      "matchweek": 30,
+      "kickoff": "2026-04-27T14:00:00.000Z",
+      "homeClubId": 2,
+      "awayClubId": 5,
+      "status": "LIVE",
+      "homeScore": 2,
+      "awayScore": 1,
+      "stadium": "Etihad Stadium",
+      "referee": "M. Dean"
+    },
+    {
+      "id": 204,
+      "matchweek": 30,
+      "kickoff": "2026-04-27T14:00:00.000Z",
+      "homeClubId": 7,
+      "awayClubId": 8,
+      "status": "UPCOMING",
+      "homeScore": 0,
+      "awayScore": 0,
+      "stadium": "St James' Park",
+      "referee": "C. Kavanagh"
+    },
+    {
+      "id": 205,
+      "matchweek": 29,
+      "kickoff": "2026-04-20T18:30:00.000Z",
+      "homeClubId": 6,
+      "awayClubId": 3,
+      "status": "FT",
+      "homeScore": 2,
+      "awayScore": 2,
+      "stadium": "Tottenham Hotspur Stadium",
+      "referee": "P. Tierney"
+    },
+    {
+      "id": 206,
+      "matchweek": 29,
+      "kickoff": "2026-04-20T15:00:00.000Z",
+      "homeClubId": 4,
+      "awayClubId": 10,
+      "status": "FT",
+      "homeScore": 3,
+      "awayScore": 1,
+      "stadium": "Stamford Bridge",
+      "referee": "S. Hooper"
+    },
+    {
+      "id": 207,
+      "matchweek": 29,
+      "kickoff": "2026-04-21T19:00:00.000Z",
+      "homeClubId": 5,
+      "awayClubId": 1,
+      "status": "FT",
+      "homeScore": 1,
+      "awayScore": 2,
+      "stadium": "Old Trafford",
+      "referee": "D. Coote"
+    },
+    {
+      "id": 208,
+      "matchweek": 29,
+      "kickoff": "2026-04-21T14:00:00.000Z",
+      "homeClubId": 9,
+      "awayClubId": 7,
+      "status": "FT",
+      "homeScore": 0,
+      "awayScore": 1,
+      "stadium": "Amex Stadium",
+      "referee": "R. Jones"
+    }
+  ],
+  "standings": [
+    { "clubId": 2, "clubName": "Manchester City", "played": 29, "wins": 20, "draws": 6, "losses": 3, "goalDiff": 35, "points": 66 },
+    { "clubId": 1, "clubName": "Arsenal", "played": 29, "wins": 19, "draws": 6, "losses": 4, "goalDiff": 30, "points": 63 },
+    { "clubId": 3, "clubName": "Liverpool", "played": 29, "wins": 18, "draws": 7, "losses": 4, "goalDiff": 28, "points": 61 },
+    { "clubId": 6, "clubName": "Tottenham Hotspur", "played": 29, "wins": 16, "draws": 6, "losses": 7, "goalDiff": 15, "points": 54 },
+    { "clubId": 7, "clubName": "Newcastle United", "played": 29, "wins": 15, "draws": 6, "losses": 8, "goalDiff": 12, "points": 51 },
+    { "clubId": 8, "clubName": "Aston Villa", "played": 29, "wins": 14, "draws": 7, "losses": 8, "goalDiff": 10, "points": 49 },
+    { "clubId": 4, "clubName": "Chelsea", "played": 29, "wins": 13, "draws": 6, "losses": 10, "goalDiff": 5, "points": 45 },
+    { "clubId": 5, "clubName": "Manchester United", "played": 29, "wins": 12, "draws": 6, "losses": 11, "goalDiff": 2, "points": 42 },
+    { "clubId": 9, "clubName": "Brighton", "played": 29, "wins": 11, "draws": 7, "losses": 11, "goalDiff": -1, "points": 40 },
+    { "clubId": 10, "clubName": "West Ham United", "played": 29, "wins": 10, "draws": 6, "losses": 13, "goalDiff": -8, "points": 36 }
+  ],
+  "news": [
+    {
+      "id": 301,
+      "title": "Title race heats up: top three separated by five points",
+      "summary": "A tight run-in sets up a huge final stretch, with momentum swings every matchweek.",
+      "date": "Apr 25, 2026",
+      "category": "Premier League",
+      "imageUrl": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=60"
+    },
+    {
+      "id": 302,
+      "title": "Matchweek preview: big-six clashes and must-win battles",
+      "summary": "Key tactical matchups, players to watch, and the most important fixtures of the weekend.",
+      "date": "Apr 24, 2026",
+      "category": "Preview",
+      "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1200&q=60"
+    },
+    {
+      "id": 303,
+      "title": "Golden Boot watch: forwards in red-hot form",
+      "summary": "Goals are flying in—here are the names leading the scoring charts and why they’re thriving.",
+      "date": "Apr 22, 2026",
+      "category": "Players",
+      "imageUrl": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=60"
+    },
+    {
+      "id": 304,
+      "title": "Set-piece masterclass: how teams are winning with dead balls",
+      "summary": "From near-post routines to screening runs, set pieces are deciding matches across the league.",
+      "date": "Apr 20, 2026",
+      "category": "Tactics",
+      "imageUrl": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=1200&q=60"
+    },
+    {
+      "id": 305,
+      "title": "Defensive wall: clean sheets shaping the top-four fight",
+      "summary": "Organization, pressing triggers, and elite shot-stopping—defending is back in fashion.",
+      "date": "Apr 18, 2026",
+      "category": "Analysis",
+      "imageUrl": "https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1200&q=60"
+    }
+  ],
+  "statistics": [
+    {
+      "summary": { "totalGoals": 784, "cleanSheets": 118, "avgGoalsPerMatch": 2.78, "shotsOnTarget": 2140 },
+      "charts": {
+        "goalsByWeek": [
+          { "week": "24", "goals": 24 },
+          { "week": "25", "goals": 29 },
+          { "week": "26", "goals": 31 },
+          { "week": "27", "goals": 27 },
+          { "week": "28", "goals": 33 },
+          { "week": "29", "goals": 30 },
+          { "week": "30", "goals": 18 }
+        ],
+        "cleanSheetsByClub": [
+          { "club": "MCI", "cleanSheets": 12 },
+          { "club": "ARS", "cleanSheets": 11 },
+          { "club": "LIV", "cleanSheets": 10 },
+          { "club": "NEW", "cleanSheets": 9 },
+          { "club": "TOT", "cleanSheets": 8 },
+          { "club": "AVL", "cleanSheets": 8 },
+          { "club": "CHE", "cleanSheets": 7 },
+          { "club": "MUN", "cleanSheets": 7 }
+        ]
+      },
+      "leaderboards": {
+        "topScorers": [
+          { "name": "Erling Haaland", "club": "MCI", "goals": 18 },
+          { "name": "Mohamed Salah", "club": "LIV", "goals": 15 },
+          { "name": "Son Heung-min", "club": "TOT", "goals": 12 },
+          { "name": "Alexander Isak", "club": "NEW", "goals": 11 },
+          { "name": "Bukayo Saka", "club": "ARS", "goals": 10 }
+        ],
+        "topAssists": [
+          { "name": "Kevin De Bruyne", "club": "MCI", "assists": 10 },
+          { "name": "Bruno Fernandes", "club": "MUN", "assists": 9 },
+          { "name": "Bukayo Saka", "club": "ARS", "assists": 8 },
+          { "name": "Mohamed Salah", "club": "LIV", "assists": 7 },
+          { "name": "James Maddison", "club": "TOT", "assists": 6 }
+        ],
+        "cleanSheets": [
+          { "name": "Ederson", "club": "MCI", "cleanSheets": 12 },
+          { "name": "Raya", "club": "ARS", "cleanSheets": 11 },
+          { "name": "Alisson", "club": "LIV", "cleanSheets": 10 },
+          { "name": "Pope", "club": "NEW", "cleanSheets": 9 },
+          { "name": "Vicario", "club": "TOT", "cleanSheets": 8 }
+        ]
+      }
+    }
+  ]
+}
+
