@@ -12,7 +12,7 @@ const router = jsonServer.router(db)
 
 server.use(middlewares)
 
-// Health check endpoint
+
 server.get('/health', (req, res) => {
   res.status(200).send('OK')
 })
