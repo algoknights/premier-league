@@ -7,7 +7,7 @@ export function ClubCard({ club }) {
     <motion.div whileHover={{ y: -4 }} className="glass rounded-3xl p-4 shadow-soft hover:shadow-glow">
       <div className="flex items-center gap-3">
         <div className="grid h-12 w-12 place-items-center rounded-2xl bg-white/80 p-2">
-          <img src={club.logoUrl} alt="" className="h-full w-full object-contain" />
+          <img src={club.logoUrl} alt="" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
         </div>
         <div className="min-w-0">
           <div className="truncate text-sm font-semibold">{club.name}</div>

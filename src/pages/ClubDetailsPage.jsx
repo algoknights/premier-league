@@ -42,7 +42,7 @@ export default function ClubDetailsPage() {
         <div className="relative flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div className="flex items-center gap-4">
             <div className="grid h-16 w-16 place-items-center rounded-[28px] bg-white/85 p-2 shadow-soft">
-              <img src={club.logoUrl} alt="" className="h-full w-full object-contain" />
+              <img src={club.logoUrl} alt="" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
             </div>
             <div>
               <div className="text-3xl font-extrabold tracking-tight text-white">{club.name}</div>
@@ -76,7 +76,7 @@ export default function ClubDetailsPage() {
                 <div key={p.id} className="flex items-center justify-between gap-3 px-4 py-3">
                   <div className="flex items-center gap-3 min-w-0">
                     <div className="grid h-10 w-10 place-items-center overflow-hidden rounded-2xl bg-white/80">
-                      <img src={p.photoUrl} alt="" className="h-full w-full object-cover" />
+                      <img src={p.photoUrl} alt="" className="h-full w-full object-cover" referrerPolicy="no-referrer" />
                     </div>
                     <div className="min-w-0">
                       <div className="truncate text-sm font-semibold">{p.name}</div>

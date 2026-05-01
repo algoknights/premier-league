@@ -124,7 +124,7 @@ export default function HomePage() {
                 >
                   <div className="flex items-center gap-3">
                     <div className="grid h-10 w-10 place-items-center overflow-hidden rounded-2xl bg-white/80">
-                      <img src={p.photoUrl} alt="" className="h-full w-full object-cover" />
+                      <img src={p.photoUrl} alt="" className="h-full w-full object-cover" referrerPolicy="no-referrer" />
                     </div>
                     <div>
                       <div className="text-sm font-semibold">{p.name}</div>

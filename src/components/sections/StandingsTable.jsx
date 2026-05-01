@@ -28,7 +28,7 @@ export function StandingsTable({ rows, clubsById }) {
                   <td className="px-4 py-3">
                     <div className="flex items-center gap-3">
                       <div className="grid h-9 w-9 place-items-center rounded-2xl bg-white/80 p-1.5">
-                        <img src={club?.logoUrl} alt="" className="h-full w-full object-contain" />
+                        <img src={club?.logoUrl} alt="" className="h-full w-full object-contain" referrerPolicy="no-referrer" />
                       </div>
                       <div className="min-w-0">
                         <div className="truncate font-semibold">{club?.name || r.clubName}</div>

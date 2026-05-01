@@ -106,17 +106,20 @@ export default function FixturesPage() {
 
         <div className="space-y-4">
           <LiveScoreWidget liveMatches={liveCount} />
-          <div className="glass rounded-3xl p-4 shadow-soft">
-            <div className="text-sm font-semibold">Tip for demo</div>
-            <p className="mt-1 text-sm text-slate-600 dark:text-hub-muted">
-              Start JSON Server with <span className="font-semibold">npm run server</span>. The UI uses fetch + Context.
+          <div className="glass rounded-[2rem] p-6 shadow-soft">
+            <div className="flex items-center gap-2 text-hub-neon">
+              <span className="h-1.5 w-1.5 rounded-full bg-current" />
+              <div className="text-[10px] font-black uppercase tracking-widest">Developer Note</div>
+            </div>
+            <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-hub-muted/80">
+              This page uses <span className="text-hub-text font-medium">JSON Server</span> for the mock API and <span className="text-hub-text font-medium">LocalStorage</span> to persist your filters.
             </p>
             <button
               type="button"
-              className="hub-btn-primary mt-4 w-full"
+              className="hub-btn-primary mt-6 w-full py-3 rounded-2xl text-xs uppercase tracking-widest font-black"
               onClick={() => toast.success('Filters saved to localStorage')}
             >
-              Save filters
+              Save Preferences
             </button>
           </div>
         </div>
