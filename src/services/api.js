@@ -1,5 +1,7 @@
 const isProd = import.meta.env.PROD
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (import.meta.env.PROD ? '/api' : 'http://localhost:5174')
+const API_BASE_URL = import.meta.env.PROD 
+  ? 'https://premier-league-g5f8.onrender.com' 
+  : 'http://localhost:5174'
 
 async function request(path) {
   const res = await fetch(`${API_BASE_URL}${path}`)
